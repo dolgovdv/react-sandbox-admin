@@ -1,0 +1,29 @@
+.table-objects {
+  table {
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+  }
+  th {
+    vertical-align: middle;
+    text-align: center;
+
+    border: 1px solid lightgray;
+  }
+  td {
+    vertical-align: middle;
+    text-align: center;
+    height: 3em;
+
+    border: 1px solid lightgray;
+  }
+  tbody tr {
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+
+  .objects-status {
+  }
+}

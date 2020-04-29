@@ -5,12 +5,12 @@ import { PrivateRoute } from "./components";
 import { Main as MainLayout } from "./layouts";
 
 import {
-  Owerview as OwerviewView,
-  NotFound as NotFoundView,
-  Objects as ObjectsView,
-  MapView,
-  Passport as PassportView,
-  Monitoring as MonitoringView
+  Owerview as OwerviewView
+  // NotFound as NotFoundView,
+  // Objects as ObjectsView,
+  // MapView,
+  // Passport as PassportView,
+  // Monitoring as MonitoringView
 } from "./views";
 
 const Routes = () => {
@@ -22,7 +22,7 @@ const Routes = () => {
         component={OwerviewView}
         layout={MainLayout}
       />
-      <PrivateRoute
+      {/* <PrivateRoute
         exact={false}
         component={ObjectsView}
         path="/objects"
@@ -46,9 +46,9 @@ const Routes = () => {
         component={MonitoringView}
         path="/monitoring/:id"
         layout={MainLayout}
-      />
+      /> */}
 
-      <PrivateRoute component={NotFoundView} layout={MainLayout} />
+      {/* <PrivateRoute component={NotFoundView} layout={MainLayout} /> */}
       {/* <Redirect to="/not-found" /> */}
     </Switch>
   );

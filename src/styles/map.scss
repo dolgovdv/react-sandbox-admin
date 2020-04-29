@@ -1,0 +1,95 @@
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+// .markerClusterLabel {
+//   color: #000;
+//   font-size: 20px;
+// }
+
+.map-view {
+  height: 700px;
+}
+.map-overview {
+  height: 400px;
+}
+.markerClusterDisable {
+  height: 20px;
+  width: 30px;
+  background-color: #f74c8e;
+}
+
+.markerClusterEnable {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 15px;
+  font: 12px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background-color: #14f314d0;
+}
+
+.markerClusterNot {
+  height: 20px;
+  width: 30px;
+  background-color: #a1a1a1d2;
+}
+
+.markerCluster {
+  border-radius: 7px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+  font-family: Open Sans;
+  text-transform: uppercase;
+}
+
+.markerClusterDivOne {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 3s;
+}
+
+.markerClusterDivTwo {
+  position: absolute;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 2.5s;
+}
+
+.markerClusterDivThree {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 2s;
+}
+
+.markerClusterDivFour {
+  padding: 1px;
+  width: 2em;
+  height: 2em;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 1.5s;
+}
+
+.markerClusterLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

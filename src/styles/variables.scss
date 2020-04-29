@@ -1,0 +1,73 @@
+// base color
+$blue: #324157;
+$light-blue: #63a1cd;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+//sidebar
+$menuText: #7fd4ff;
+$menuActiveText: #ffffff;
+$subMenuActiveText: #2d2df3; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: #2e75b6;
+$menuHover: #3399cc;
+
+$subMenuBg: #1f2d3d;
+$subMenuHover: #001528;
+
+$sideBarWidth: 230px;
+
+// charts
+$availCons: #c03639;
+$ChartDischr: #7ec359c0;
+$ChartDischrArea: #7ec35930;
+$ChartChr: #e7b95dc0;
+$ChartChrArea: #e7b95d70;
+$ChartOptim: #81b0dbc0;
+$ChartOptimArea: #81b0db30;
+$ChartHourPlan: #afcde9a0;
+$ChartPlan: #000000;
+$ChartPlanArea: #00000030;
+$ChartReal: #089703;
+
+// Map color
+
+// the :export directive is the magic sauce for webpack
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  ChartDischr: $ChartDischr;
+  ChartDischrArea: $ChartDischrArea;
+  ChartChr: $ChartChr;
+  ChartChrArea: $ChartChrArea;
+  ChartOptim: $ChartOptim;
+  ChartHourPlan: $ChartHourPlan;
+  ChartOptimArea: $ChartOptimArea;
+  ChartPlan: $ChartPlan;
+  ChartPlanArea: $ChartPlanArea;
+  ChartReal: $ChartReal;
+  availCons: $availCons;
+
+  // Map color
+  //Marker
+  MarkerEnable: #63b046;
+  MarkerWarning: #e7b95d;
+  MarkerDisable: #747373;
+  MarkerAlarm: #d56455;
+
+  //Marker cluster
+  MarkerKlusterEnable: #63b046;
+  MarkerKlusterWarning: #e7b95d;
+  MarkerKlusterDisable: #747373;
+  MarkerKlusterAlarm: #d56455;
+}

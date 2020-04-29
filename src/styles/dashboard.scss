@@ -1,0 +1,126 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+  column-gap: 1em;
+}
+
+.capacity {
+  p {
+    margin: 0px;
+    display: inline-block;
+  }
+  .count {
+    color: #808080;
+  }
+  .card-body {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas:
+      'main second'
+      'footer footer';
+  }
+  .grid-main {
+    grid-area: main;
+    .val-main {
+      // font-size: 350%;
+      font-size: 35px;
+    }
+  }
+  .grid-secondary {
+    grid-area: second;
+    .value {
+      // font-size: 250%;
+      font-size: 25px;
+    }
+    .description {
+    }
+  }
+  .grid-footer {
+    grid-area: footer;
+  }
+}
+
+.frecuency {
+  p {
+    margin: 0px;
+    display: inline-block;
+  }
+  .count {
+    color: #808080;
+  }
+
+  .card-body {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'main second';
+  }
+  .grid-main {
+    grid-area: main;
+    align-self: center;
+  }
+  .grid-secondary {
+    grid-area: second;
+    .value {
+      // font-size: 250%;
+      font-size: 35px;
+    }
+    .description {
+    }
+  }
+}
+
+.table-intraday {
+  table {
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    color: #808080;
+  }
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  // tbody tr {
+  //   &:hover {
+  //     background-color: lightgray;
+  //   }
+  // }
+  // .head-row-1 th:nth-child(2) {
+  //   border-right: 1px solid lightgray;
+  // }
+
+  // .head-row-2 th:nth-child(1),
+  // .head-row-2 th:nth-child(2),
+  // .head-row-2 th:nth-child(3) {
+  //   border-right: 1px solid lightgray;
+  // }
+
+  // .body-row-1 {
+  //   border-top: 1px solid lightgray;
+  // }
+
+  // .body-row-2 {
+  //   border-top: 1px solid lightgray;
+  // }
+
+  // .body-row-1 td:nth-child(1),
+  // .body-row-1 td:nth-child(2),
+  // .body-row-1 td:nth-child(3),
+  // .body-row-1 td:nth-child(4),
+  // .body-row-1 td:nth-child(5) {
+  //   border-right: 1px solid lightgray;
+  // }
+
+  // .body-row-2 td:nth-child(1),
+  // .body-row-2 td:nth-child(2),
+  // .body-row-2 td:nth-child(3),
+  // .body-row-2 td:nth-child(4),
+  // .body-row-2 td:nth-child(5) {
+  //   border-right: 1px solid lightgray;
+  // }
+}
