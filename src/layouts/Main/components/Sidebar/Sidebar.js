@@ -37,7 +37,7 @@ const Sidebar = (props) => {
           </li>
 
           {/* <li>
-            <NavLink to="/smartsite">Ð¡Ð¼Ð°ÑÑ ÑÐ°Ð¹Ñ</NavLink>
+            <NavLink to="/smartsite">ÃÂ¡ÃÂ¼ÃÂ°ÃÂÃÂ ÃÂÃÂ°ÃÂ¹ÃÂ</NavLink>
           </li> */}
         </ul>
       </nav>
