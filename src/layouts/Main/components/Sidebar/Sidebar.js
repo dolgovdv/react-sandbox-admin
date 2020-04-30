@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 // import { Nav, ListGroup } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { NavLink } from "react-router-dom"
+// import { useTranslation } from 'react-i18next'
 // import './navigation.css'
 const Sidebar = (props) => {
-  const { t } = useTranslation()
+  // const { t } = useTranslation()
 
   return (
     // <div className="sidebar-container">
@@ -26,14 +26,14 @@ const Sidebar = (props) => {
         <ul className="sidebar-nav">
           <li>
             <NavLink exact to="/">
-              {t('Owerview')}
+              Owerview
             </NavLink>
           </li>
           <li>
-            <NavLink to="/map">{t('Map')}</NavLink>
+            <NavLink to="/map">Map</NavLink>
           </li>
           <li>
-            <NavLink to="/objects">{t('Objects')}</NavLink>
+            <NavLink to="/objects">Objects</NavLink>
           </li>
 
           {/* <li>
