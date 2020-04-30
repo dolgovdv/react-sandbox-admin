@@ -9,12 +9,12 @@ const Objects = (params) => {
       <ul className="nav nav-justified">
         <li className="nav-item">
           <NavLink exact to={`${url}/dashboard`}>
-            dashboard
+            dashboard 1
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink exact to={`${url}/hourprofile`}>
-            hourprofile
+            hourprofile 1
           </NavLink>
         </li>
       </ul>
