@@ -1,13 +1,11 @@
 import React from "react"
 
 import { NavLink, Switch, Route, useRouteMatch } from "react-router-dom"
-// import { Dashboard, Map, ChartCompensation } from './components'
 import { Dashboard, HourProfile } from "./components"
-
-const Owerview = () => {
+const Objects = (params) => {
   let { path, url } = useRouteMatch()
   return (
-    <div className="owerview">
+    <div>
       <ul className="nav nav-justified">
         <li className="nav-item">
           <NavLink exact to={`${url}/dashboard`}>
@@ -20,7 +18,6 @@ const Owerview = () => {
           </NavLink>
         </li>
       </ul>
-
       <Switch>
         <Route path={`${path}/dashboard`}>
           <Dashboard />
@@ -33,4 +30,4 @@ const Owerview = () => {
   )
 }
 
-export default Owerview
+export default Objects

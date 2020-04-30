@@ -1,17 +1,17 @@
-import React from "react";
-import { Switch } from "react-router-dom";
+import React from "react"
+import { Switch } from "react-router-dom"
 
-import { PrivateRoute } from "./components";
-import { Main as MainLayout } from "./layouts";
+import { PrivateRoute } from "./components"
+import { Main as MainLayout } from "./layouts"
 
 import {
-  Owerview as OwerviewView
+  Owerview as OwerviewView,
   // NotFound as NotFoundView,
-  // Objects as ObjectsView,
-  // MapView,
+  Objects as ObjectsView,
+  MapView,
   // Passport as PassportView,
   // Monitoring as MonitoringView
-} from "./views";
+} from "./views"
 
 const Routes = () => {
   return (
@@ -22,20 +22,20 @@ const Routes = () => {
         component={OwerviewView}
         layout={MainLayout}
       />
-      {/* <PrivateRoute
+      <PrivateRoute
         exact={false}
         component={ObjectsView}
         path="/objects"
         layout={MainLayout}
       />
       <PrivateRoute component={MapView} path="/map" layout={MainLayout} />
-      <PrivateRoute
+      {/* <PrivateRoute
         exact={true}
         component={PassportView}
         path="/passport"
         layout={MainLayout}
-      />
-      <PrivateRoute
+      /> */}
+      {/* <PrivateRoute
         exact={false}
         component={PassportView}
         path="/passport/:id"
@@ -47,11 +47,10 @@ const Routes = () => {
         path="/monitoring/:id"
         layout={MainLayout}
       /> */}
-
       {/* <PrivateRoute component={NotFoundView} layout={MainLayout} /> */}
       {/* <Redirect to="/not-found" /> */}
     </Switch>
-  );
-};
+  )
+}
 
-export default Routes;
+export default Routes
