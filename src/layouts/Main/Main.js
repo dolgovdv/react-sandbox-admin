@@ -1,19 +1,19 @@
-import React from "react";
-// import { Container, Row, Col } from 'react-bootstrap'
+import React from "react"
 
-import { Sidebar, Topbar } from "./components";
+import { Topbar, MainSidebar } from "./components" //Sidebar,
 
-const Main = props => {
-  const { children } = props;
+const Main = (props) => {
+  const { children } = props
   return (
     <div>
       <Topbar />
       <div className="layout-main">
-        <Sidebar />
+        <MainSidebar />
+
         <main className="grid-main">{children}</main>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

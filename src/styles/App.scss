@@ -1,11 +1,15 @@
-// @import '~bootstrap/scss/bootstrap';
+
 // @import '../../node_modules/leaflet/dist/leaflet.css';
-@import './variables.scss';
-@import './sidebar.scss';
-@import './map.scss';
-@import './dashboard.scss';
-@import './layout-main.scss';
-@import './TableObjects.scss';
+@import "./variables.scss";
+@import "./sidebar.scss";
+@import "./map.scss";
+@import "./dashboard.scss";
+@import "./layout-main.scss";
+@import "./TableObjects.scss";
+
+.App {
+  text-align: center;
+}
 
 .owerview {
   // margin-left: 30px;

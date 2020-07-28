@@ -23,7 +23,7 @@ const Routes = () => {
         layout={MainLayout}
       />
       <PrivateRoute
-        exact={false}
+        exact={true}
         component={ObjectsView}
         path="/objects"
         layout={MainLayout}
